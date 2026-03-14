@@ -41,7 +41,7 @@ signed main() {
     int res = 0, dig = 0 ;
     for(int i = k ; i >= 1 ; i--) {
         int ce = (c[i]*q_pow((int)10, dig))%mod ;
-        int R = 0;
+        int R = 0 ;
         for(int j = 29 ; j >= 0 ; j--){
             if((int)(1<<j)&l[i]) {
                 R = R*ddr[j]+dr[j] ;
