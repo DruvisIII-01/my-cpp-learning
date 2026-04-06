@@ -8,9 +8,10 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-Wl,--disable-auto-image-base", // 添加这个链接器标志
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
