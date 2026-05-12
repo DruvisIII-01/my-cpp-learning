@@ -6,24 +6,31 @@ using namespace std ;
 void solve(){
     int n, k ; cin >> n >> k ; 
     vector <int> x ;
-    vector <int> cnt(n) ;
-    //vector <int> pre(n) ;
-    map <int, int> hsh ;
+    vector <int> dp(n + 123) ;
+    vector <int> suf(n + 123) ;
     for(int t = 1 ; t <= n ; t++) {
         int x0 = -1 ; cin >> x0 ;
         x.push_back(x0) ;
-        hsh[x0]++ ;
     }
     for(int t = 1 ; t <= n ; t++) {
         int y0 = -1 ; cin >> y0 ;
     }
     
     sort(x.begin(), x.end()) ;
-    cnt[0] = n ;
-    for(int i = 1 ; i < n ; i++) {
-        if(x[i] == x[i - 1]) cnt[i] = cnt[i - 1] ;
-        else cnt[i] = cnt[i - 1] - hsh[x[i - 1]] ;
+    
+    int R = 0 ; 
+    for(int L = 0 ; L < n ; L++){
+        while(R < n && x[R] <= k + x[L]) R++ ;
+        dp[L] = R - L ;
     }
+
+    suf[n - 1] = dp[n - 1] ;
+    for(int i = n - 2 ; i >= 0 ; i--) suf[i] = max(suf[i + 1], dp[i]) ;
+
+    int mx = -1 ;
+    for(int i = 0 ; i < n ; i++) mx = max(mx, dp[i] + suf[i + dp[i]]) ;
+    
+    cout << mx ;
 }
 
 signed main() {
