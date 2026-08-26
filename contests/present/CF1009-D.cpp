@@ -2,57 +2,33 @@
 using namespace std ;
 
 #define int long long
+#define pii pair<int, int>
 
 const int inff = 1e9 + 7 ;
-struct circle{int x ; int r ;} ;
-struct interval { int st; int fi; };
 
+int isqrt(int x){
+    int res = x ; 
+    while(res){
+        res-- ;
+        if(res * res <= x) return res ;
+    }return res ;
+}
 void solve(){
     int n, m ; cin >> n >> m ;
-    vector<circle>C(n + 1) ;
-    for(int i = 1 ; i <= n ; ++i) cin >> C[i].x ;
-    for(int i = 1 ; i <= n ; ++i) cin >> C[i].r ;
-    auto cmp_x = [](const circle C1, const circle C2){
-        return C1.x < C2.x ;
-    } ; sort(C.begin() + 1, C.begin() + n + 1, cmp_x) ;
-    vector<vector<interval>>S(m + 1) ;
-    for(int i = 1 ; i <= n ; ++i){
-        int R = C[i].r, X = C[i].x ;
-        //cout << i << R << X << endl ;
-        for(int y = 0 ; y <= R ; ++y){
-            int d = (int)sqrt(R * R - y * y) ;
-            int nst = X - d, nfi = X + d ;
-            // interval nitv ; nitv.st = nst ; nitv.fi = nfi ;
-            // if(S[y].empty()) S[y].insert(nitv) ;
-            // else{
-            //     bool find = false ;
-            //     int mi = inff, mx = -inff ;
-            //     for(interval itv : S[y]){
-            //         if(nst <= itv.fi){
-            //             if(nst >= itv.st){
-            //                 mi = min(mi, itv.st) ; mx = max({nfi, itv.fi, mx}) ;
-            //                 S[y].erase(itv) ; find = true ;
-            //             }else if(nfi >= itv.st){
-            //                 mi = min(mi, nst) ; mx = max({nfi, itv.fi, mx});
-            //                 S[y].erase(itv) ; find = true ;
-            //             }
-            //         }
-            //     }if(!find)S[y].insert(nitv) ;
-            //     else{
-            //         interval to_add ; to_add.fi = mx ; to_add.st = mi ;
-            //         S[y].insert(to_add) ;
-            //     }
-            // }
-        }
-    }//cout << "ccc" ;
-    int ans = 0 ;
-    for(int y = 0 ; y <= m ; ++y){
-        int sum = 0 ;
-        for(interval itv : S[y]) sum += itv.fi - itv.st + 1 ;
-        if(!y) ans += sum ; else ans += 2 * sum ;
-    }cout << ans ;
-}
+    vector<int> x(n + 1) ;for(int i = 1 ; i <= n ; ++i) cin >> x[i] ;
+    vector<int> r(n + 1) ;for(int i = 1 ; i <= n ; ++i) cin >> r[i] ;
+    map<int, int> mp ;
 
+    for(int i = 1 ; i <= n ; ++i){
+        for(int j = x[i] - r[i] ; j <= x[i] + r[i] ; j++){
+            int y = (int)sqrt(r[i] * r[i] - (j - x[i]) * (j - x[i])) ;
+            mp[j] = max(mp[j], 2 * y + 1) ;
+        }
+    }
+
+    int ans = 0 ; for(auto [x, c] : mp) ans += c ;
+    cout << ans ;
+}
 signed main() {
     int T ;cin >> T ;
     while(T--) {
