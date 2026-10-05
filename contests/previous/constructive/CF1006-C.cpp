@@ -60,3 +60,11 @@ signed main() {
     }
     return 0;
 }
+
+/* ######################################################################
+ * 【题面与关键思路】Creating Keys for StORages Has Become My Main Skill
+ * 题目链接：https://codeforces.com/problemset/problem/2072/C
+ * 标签：难度 1200 | bitmasks, constructive algorithms, greedy
+ *
+ * 关键思路：要让 OR 恰为 x 且和的漂移最小：x 的每个 1 位至少要有一个数贡献，把 x 的二进制 1 位分配到尽量少的数上。
+ * ###################################################################### */

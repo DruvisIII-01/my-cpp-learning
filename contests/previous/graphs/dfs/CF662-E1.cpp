@@ -86,3 +86,11 @@ signed main() {
     }
     return 0;
 }
+
+/* ######################################################################
+ * 【题面与关键思路】Weights Division (easy version)
+ * 题目链接：https://codeforces.com/problemset/problem/1393/E1
+ * 标签：难度 2000 | data structures, dfs and similar, greedy, trees
+ *
+ * 关键思路：先统计每条边被多少叶子路径经过（DFS 求子树叶子数 leaf），每次操作可把 w 变成 w/2，收益为 (w - w/2) * leaf；用优先队列每次取收益最大的边，直到总和 <= S。
+ * ###################################################################### */

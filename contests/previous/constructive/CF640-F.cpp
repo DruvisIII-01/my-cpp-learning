@@ -36,3 +36,11 @@ signed main() {
     }
     return 0;
 }
+
+/* ######################################################################
+ * 【题面与关键思路】Binary String Reconstruction
+ * 题目链接：https://codeforces.com/problemset/problem/1352/F
+ * 标签：难度 1500 | constructive algorithms, dfs and similar, math
+ *
+ * 关键思路：把 n0 个 0 与 n2 个 2 转成"0/1 交替块"，n1 个 1 单独成段，按 n1==0、n2==0 等边界分类拼接输出。
+ * ###################################################################### */
