@@ -1,6 +1,6 @@
 # 排序、排序后处理与前缀和
 
-> 本目录共 **15** 个题解文件，由 `basics / implementation / brute-force / greedy` 中挑选出的代表性题目组成。
+> 本目录共 **16** 个题解文件，由 `basics / implementation / brute-force / greedy` 中挑选出的代表性题目组成。
 
 ## 一、这一类题在考什么
 
