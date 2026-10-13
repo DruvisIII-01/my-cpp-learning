@@ -37,3 +37,11 @@ signed main() {
     }
     return 0;
 }
+
+/* ######################################################################
+ * 【题面与关键思路】Easy Demon Problem
+ * 题目链接：https://codeforces.com/problemset/problem/2044/F
+ * 标签：难度 1900 | binary search, brute force, data structure, math, number theory
+ *
+ * 关键思路：问能否通过交换 a 中一个数 x 与 b 中一个数 y 使两个数组元素和相等 —— 等价于 (sumA − x) − (sumB − y) = 0，即 x − y = sumA − sumB = X。把 a、b 的值存进哈希表，枚举 |X| 的约数 d 与 X/d 作为 (x, y) 的候选（四种符号组合）查询是否同时存在。
+ * ###################################################################### */

@@ -2,7 +2,7 @@
 
 | 子目录 | 内容 | 题数 |
 | --- | --- | --- |
-| `math/number-theory` | 数论：gcd/lcm、筛法、约数、同余、质因数分解 | 12 |
+| `math/number-theory` | 数论：gcd/lcm、筛法、约数、同余、质因数分解 | 14 |
 | `math/patterns` | 规律与公式推导、组合计数 | 18 |
 | `math/bitwise` | 位运算与逐位贪心 | 3 |
 | `math/geometry` | 计算几何与整点计数 | 3 |
