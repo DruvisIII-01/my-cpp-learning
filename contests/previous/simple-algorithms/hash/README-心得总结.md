@@ -1,6 +1,6 @@
 # 哈希思想与计数数组
 
-> 本目录共 **9** 个题解文件，由 `basics / implementation / brute-force / greedy` 中挑选出的代表性题目组成。
+> 本目录共 **10** 个题解文件，由 `basics / implementation / brute-force / greedy` 中挑选出的代表性题目组成。
 
 ## 一、这一类题在考什么
 

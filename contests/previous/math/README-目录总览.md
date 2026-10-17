@@ -2,14 +2,25 @@
 
 | 子目录 | 内容 | 题数 |
 | --- | --- | --- |
-| `math/number-theory` | 数论：gcd/lcm、筛法、约数、同余、质因数分解 | 14 |
-| `math/patterns` | 规律与公式推导、组合计数 | 18 |
-| `math/bitwise` | 位运算与逐位贪心 | 3 |
+| `math/prefix-sum` | 前缀和：区间和、计数前缀和、DP 优化、二维/加权前缀和 | 16 |
+| `math/difference` | 差分：区间加减、二维差分（前缀和的逆运算） | 2 |
+| `math/number-theory` | 数论：gcd/lcm、筛法、约数、同余、质因数分解 | 15 |
+| `math/combinatorics` | 组合数学：计数、容斥、组合数 | 2 |
+| `math/patterns` | 规律与公式推导：不变量、奇偶性、分类讨论 | 14 |
+| `math/bitwise` | 位运算与逐位贪心 | 4 |
 | `math/geometry` | 计算几何与整点计数 | 3 |
-| `math/fast-power` | 快速幂与模运算 | 1 |
+| `math/fast-power` | 快速幂与模运算（逆元、矩阵快速幂的基础） | 1 |
 
-## 通用方法论
+## 为什么前缀和/差分放在 math 而不是 simple-algorithms
 
-- 数学题先"手玩 + 打表"，再猜结论，最后证明。
-- 能整除就别用浮点；能整数开方就别 `sqrt`。
-- 溢出是头号敌人：lcm 先除后乘。
+- 它们是"**序列预处理**"技巧，和 DP、数论、组合数学一起用（例如 `LGP6323` 是前缀和优化 DP、`CF993H` 是加权前缀和）。
+- `simple-algorithms` 收的是"排序、哈希"这类**可以独立成题的基础工具**；而前缀和/差分几乎总是**服务于别的算法**，放在 math 更贴近使用场景。
+- 两者互为逆运算，放同一个父目录便于对照学习。
+
+## 学习顺序建议
+
+1. `prefix-sum` + `difference` —— 先掌握这对互逆技巧（最常用、性价比最高）。
+2. `number-theory` —— gcd/筛法/约数，配合 `fast-power` 学逆元。
+3. `combinatorics` —— 计数与容斥。
+4. `patterns` —— 没有固定套路，靠积累。
+5. `bitwise` / `geometry` —— 按兴趣和比赛需要补。
