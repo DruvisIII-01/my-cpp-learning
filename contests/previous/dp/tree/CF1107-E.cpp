@@ -58,7 +58,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Fair and Square
  * 题目链接：https://codeforces.com/problemset/problem/2241/E
- * 标签：难度 1600 | combinatorics, dp, graphs, math, number theory, trees
+ * 标签：难度 1600 | combinatorics,dp,graphs,math,number theory,trees
  *
  * 关键思路：树上统计"三个有根子树大小凑成平方数"等组合。dfs(u) 返回以 u 为根的子树的 Σsize、Σsize²、Σsize³，配合"父方向那棵子树"的大小 (n−1−s1) 算出总的二阶/三阶和，再用组合数把节点值（与"所取子树大小之和为完全平方数"相关）分类计数。核心是"用幂和算组合量"避免 O(n²) 枚举。
  * ###################################################################### */

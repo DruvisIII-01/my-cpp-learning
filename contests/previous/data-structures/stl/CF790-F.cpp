@@ -73,7 +73,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Longest Strike
  * 题目链接：https://codeforces.com/problemset/problem/1676/F
- * 标签：难度 1300 | data structures, greedy, implementation, sortings, two pointers
+ * 标签：难度 1300 | data structures,greedy,implementation,sortings,two pointers
  *
  * 关键思路：用 map 统计频率筛出出现次数 >= k 的值，排序后扫最长连续整数段。
  * ###################################################################### */

@@ -80,7 +80,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Palindromex
  * 题目链接：https://codeforces.com/problemset/problem/2227/D
- * 标签：难度 1200 | binary search, brute force, constructive algorithms, data structures, greedy, implementation, two pointers
+ * 标签：难度 1200 | binary search,brute force,constructive algorithms,data structures,greedy,implementation,two pointers
  *
  * 关键思路：只出现一次的值必然在某个极大回文的中心，候选中心只有 O(1) 个；对每个候选双指针向外扩，用前缀和 O(1) 求 mex。
  * ###################################################################### */

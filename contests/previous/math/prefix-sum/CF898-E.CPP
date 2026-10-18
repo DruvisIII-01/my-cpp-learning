@@ -40,7 +40,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Building an Aquarium
  * 题目链接：https://codeforces.com/problemset/problem/1873/E
- * 标签：难度 1100 | binary search, sortings
+ * 标签：难度 1100 | binary search,sortings
  *
  * 关键思路：二分最终水位 h，用水量 = Σmax(0, h-a[i]) 随 h 单调，O(n log V)。
  *

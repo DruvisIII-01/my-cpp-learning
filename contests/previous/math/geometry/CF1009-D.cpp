@@ -41,7 +41,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Counting Points
  * 题目链接：https://codeforces.com/problemset/problem/2074/D
- * 标签：难度 1400 | brute force, data structures, geometry, implementation, two pointers
+ * 标签：难度 1400 | brute force,data structures,geometry,implementation,two pointers
  *
  * 关键思路：枚举每个圆覆盖的横坐标 j，算出纵坐标范围长度 2*sqrt(r^2-(j-x)^2)+1，用 map 对每个 x 取所有圆的最大高度，最后按列求和。关键是避免浮点误差（整数开方）。
  * ###################################################################### */

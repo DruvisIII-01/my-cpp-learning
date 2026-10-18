@@ -35,7 +35,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Scuza
  * 题目链接：https://codeforces.com/problemset/problem/1742/E
- * 标签：难度 1200 | binary search, greedy, implementation, math, number theory
+ * 标签：难度 1200 | binary search,greedy,math
  *
  * 关键思路：预处理前缀最大值 a[i] = max(a[i], a[i-1])（记录"能爬过前 i 级台阶所需的腿长"）与前缀和 pre[i]；每次询问 k 二分出最大的 i 使 a[i] ≤ k，答案就是 pre[i]。前缀和最典型的"预处理 + 二分查询"。
  *

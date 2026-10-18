@@ -61,7 +61,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Maximum Crossings (Hard Version)
  * 题目链接：https://codeforces.com/problemset/problem/1676/H2
- * 标签：难度 1500 | data structures, divide and conquer, sortings
+ * 标签：难度 1500 | data structures,divide and conquer,sortings
  *
  * 关键思路：统计顺序对（含相等的对）：树状数组按值域求前缀个数，答案 = sum(count(<= a[i])) + C(same,2)；即典型 BIT 求逆序对变体。
  * ###################################################################### */

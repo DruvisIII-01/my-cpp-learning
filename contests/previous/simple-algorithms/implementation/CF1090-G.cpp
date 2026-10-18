@@ -90,7 +90,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】The 67th Iteration of "Counting is Fun"
  * 题目链接：https://codeforces.com/problemset/problem/2218/G
- * 标签：难度 1800 | implementation, math
+ * 标签：难度 1800 | implementation,math
  *
  * 关键思路：把元素按"以它为中心的最大可行区间长度"分组计数，预处理前缀/后缀能否达到某长度的数量，再逐位相乘累加取模。
  *

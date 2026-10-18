@@ -42,7 +42,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】MEX Multiset
  * 题目链接：https://codeforces.com/problemset/problem/2259/D
- * 标签：难度 1200 | constructive algorithms, greedy
+ * 标签：难度 1200 | constructive algorithms,greedy
  *
  * 关键思路：答案由 0 的个数决定：cnt0 = max(0, k-m+1) 个 0 必须出现，剩下的值插到区间两端使 MEX 最小；分类讨论输出。
  * ###################################################################### */

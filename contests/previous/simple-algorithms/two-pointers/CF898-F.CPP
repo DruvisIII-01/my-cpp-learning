@@ -42,7 +42,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Money Trees
  * 题目链接：https://codeforces.com/problemset/problem/1873/F
- * 标签：难度 1300 | binary search, greedy, math, two pointers
+ * 标签：难度 1300 | binary search,greedy,math,two pointers
  *
  * 关键思路：先保证窗口内相邻高度满足整除关系（h[i-1] % h[i] == 0），再用双指针/二分确定窗口和 <= k 的最长长度。
  * ###################################################################### */

@@ -106,7 +106,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Cirno and Number (Easy Version)
  * 题目链接：https://codeforces.com/problemset/problem/2228/C1
- * 标签：难度 1500 | binary search, brute force, dp, greedy, implementation
+ * 标签：难度 1500 | binary search,brute force,dp,greedy,implementation
  *
  * 关键思路：把 a 看成字符串，枚举第一个与 a 不同的位置 i，其后各位贪心填入最小/最大合法数字，取差值最小者；n 很小可暴力枚举所有候选。
  * ###################################################################### */

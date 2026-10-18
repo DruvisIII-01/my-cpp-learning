@@ -52,7 +52,7 @@ signed main()
 /* ######################################################################
  * 【题面与关键思路】Yunli's Subarray Queries (easy version)
  * 题目链接：https://codeforces.com/problemset/problem/2009/G1
- * 标签：难度 1900 | binary search, data structures, two pointers
+ * 标签：难度 1900 | binary search,data structures,two pointers
  *
  * 关键思路：询问区间内最大出现次数：map 计数 + multiset 维护频次，配合双指针/滑动窗口在移动端点时 O(log n) 更新频次多重集。
  * ###################################################################### */

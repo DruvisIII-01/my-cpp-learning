@@ -68,7 +68,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Silhouette
  * 题目链接：https://codeforces.com/problemset/problem/2254/D
- * 标签：难度 1300 | constructive algorithms, math, sortings
+ * 标签：难度 1300 | constructive algorithms,math,sortings
  *
  * 关键思路：要求 a 排序后是“每个元素都能由 b 中某数除以正整数得到”。把 b 排序去重，用 multiset 依次取出满足整除条件的数构造答案。
  * ###################################################################### */

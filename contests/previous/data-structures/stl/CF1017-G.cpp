@@ -38,7 +38,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Chimpanzini Bananini（双端队列维护两两乘积和）
  * 题目链接：https://codeforces.com/problemset/problem/2094/G
- * 标签：难度 1700 | data structures, implementation, math
+ * 标签：难度 1700 | data structures,implementation,math
  *
  * 关键思路：维护环上所有有序对的 sum(a[i]*a[j], i<j)：用两个双端队列 + 维护 sum 与 cool，操作 1 的旋转可由 cool -> l*sum - cool 推出，O(1) 摊销。这题的关键是发现旋转后两两乘积和的变换公式。
  * ###################################################################### */

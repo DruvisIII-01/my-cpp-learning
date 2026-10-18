@@ -30,7 +30,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Yet Another Problem About Pairs Satisfying an Inequality
  * 题目链接：https://codeforces.com/problemset/problem/1703/F
- * 标签：难度 1300 | binary search, data structures, dp, greedy, sortings
+ * 标签：难度 1300 | binary search,data structures,dp,greedy,sortings
  *
  * 关键思路：数对 (i,j) 满足 a[i] < i < a[j] < j 的个数：用前缀和 sum[] 统计满足 a[t] < t 的位置数，dp[t] = dp[t-1] + sum[a[t]-1]（若 a[t] < t）。
  *

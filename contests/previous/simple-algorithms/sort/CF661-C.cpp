@@ -42,7 +42,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Boats Competition
  * 题目链接：https://codeforces.com/problemset/problem/1399/C
- * 标签：难度 1200 | brute force, greedy, two pointers
+ * 标签：难度 1200 | brute force,greedy,two pointers
  *
  * 关键思路：枚举目标和 s（<= 2n），排序后双指针统计能配成 s 的对数，取最大；n 很小故可枚举。
  * ###################################################################### */

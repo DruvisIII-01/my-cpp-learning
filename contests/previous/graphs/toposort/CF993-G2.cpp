@@ -40,7 +40,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Medium Demon Problem (hard version)
  * 题目链接：https://codeforces.com/problemset/problem/2044/G2
- * 标签：难度 1900 | dfs and similar, dp, dsu, graphs, implementation, trees
+ * 标签：难度 1900 | dfs and similar,dp,dsu,graphs,implementation,trees
  *
  * 关键思路：函数图（每个点出度 1）上做拓扑排序式 DP：入度 0 入队，出队时 dp[nxt] += dp[frt] 累加"路径条数/深度"，同时用 mx 记录最大 dp。与 easy 版（G1）相比这里要累加而不是取 max，注意答案的偏移量。
  * ###################################################################### */

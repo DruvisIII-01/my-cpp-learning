@@ -43,7 +43,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Similar Pairs
  * 题目链接：https://codeforces.com/problemset/problem/1360/C
- * 标签：难度 1100 | constructive algorithms, graph matchings, greedy, sortings
+ * 标签：难度 1100 | constructive algorithms,graph matchings,greedy,sortings
  *
  * 关键思路：统计奇偶数的个数：两者都是偶数则可行；否则需要一对差为 1 的奇偶元素交换配对（排序后检查相邻差 1）。
  * ###################################################################### */

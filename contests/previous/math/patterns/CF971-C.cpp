@@ -22,7 +22,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】The Legend of Freya the Frog
  * 题目链接：https://codeforces.com/problemset/problem/2009/C
- * 标签：难度 1100 | implementation, math
+ * 标签：难度 1100 | implementation,math
  *
  * 关键思路：每次跳跃可覆盖 0..k 的位移，分别算 x、y 方向所需步数 ceil(x/k) 与 ceil(y/k)，交替跳跃取 2*sy 或 2*sx-1。
  * ###################################################################### */

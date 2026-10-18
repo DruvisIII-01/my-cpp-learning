@@ -47,7 +47,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】The 67th OEIS Problem
  * 题目链接：https://codeforces.com/problemset/problem/2218/D
- * 标签：难度 1100 | constructive algorithms, greedy, math, number theory
+ * 标签：难度 1100 | constructive algorithms,greedy,math,number theory
  *
  * 关键思路：取前 n 个素数 p1..pn，令 a[i] = p[i]*p[i+1]，则相邻不互质、不相邻互质，用素数筛 + 构造。
  * ###################################################################### */

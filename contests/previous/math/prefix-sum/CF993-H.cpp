@@ -84,7 +84,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Hard Demon Problem
  * 题目链接：https://codeforces.com/problemset/problem/2044/H
- * 标签：难度 2100 | constructive algorithms, data structures, dp, implementation, math
+ * 标签：难度 2100 | constructive algorithms,data structures,dp,implementation,math
  *
  * 关键思路：要求 Σ a[i][j]·(i·N + j) 形式的二维加权矩形和（i、j 相对矩形左上角）。预处理四组前缀和：普通二维前缀和 S、按行的前缀和 pre1、加权 i·pre1 的列前缀和 prei、加权 j·a 的行前缀和 pre2 及其列前缀和 prej；查询时用容斥把区间和换算到"相对坐标"再线性组合，O(1) 回答。是"加权前缀和 + 容斥"的高难度综合题。
  *

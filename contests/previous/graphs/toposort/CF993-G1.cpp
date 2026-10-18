@@ -41,7 +41,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Medium Demon Problem (easy version)
  * 题目链接：https://codeforces.com/problemset/problem/2044/G1
- * 标签：难度 1700 | dfs and similar, graph matchings, graphs, implementation, trees
+ * 标签：难度 1700 | dfs and similar,graph matchings,graphs,implementation,trees
  *
  * 关键思路：函数图（每点出度 1）上求"最长链"：入度为 0 的点入队，出队时 dp[nxt] = max(dp[nxt], dp[frt] + 1)，统计全局最大 dp 再输出 mx + 1。与 hard 版（G2）的区别是这里取 max（最长路径），G2 是累加（路径条数）。
  * ###################################################################### */

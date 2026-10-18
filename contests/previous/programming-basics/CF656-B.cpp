@@ -26,9 +26,9 @@ signed main() {
 }
 
 /* ######################################################################
- * 【题面与关键思路】Make It Good
- * 题目链接：https://codeforces.com/problemset/problem/1385/C
- * 标签：难度 1200 | greedy
+ * 【题面与关键思路】Restore the Permutation by Merger
+ * 题目链接：https://codeforces.com/problemset/problem/1385/B
+ * 标签：难度 800 | greedy
  *
  * 关键思路：要让序列变"好"（先增后减的单峰），等价于保留一个后缀；从右往左找最长合法后缀，答案 = 前缀长度。
  * ###################################################################### */

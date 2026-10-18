@@ -44,7 +44,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Even-Odd XOR
  * 题目链接：https://codeforces.com/problemset/problem/1722/G
- * 标签：难度 1500 | bitmasks, constructive algorithms, greedy
+ * 标签：难度 1500 | bitmasks,constructive algorithms,greedy
  *
  * 关键思路：构造 n 个数使异或和为 0 且奇偶位置各自异或相等。先取一个 ≥ n 的 2 的幂，把奇数位放 "1..k" + 该幂，偶数位放 "k+1..2k"，最后一位用"前面异或的修正值"补齐；n 为奇数时补一个 0。
  * ###################################################################### */

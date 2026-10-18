@@ -30,7 +30,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Stickogon
  * 题目链接：https://codeforces.com/problemset/problem/1957/A
- * 标签：难度 800 | constructive algorithms, greedy
+ * 标签：难度 800 | constructive algorithms,greedy
  *
  * 关键思路：用 2x2 与 1x1 拼 n 个直角多边形：答案是按奇偶分类讨论 y 需要多少 2x2 块、剩余 x 是否够填的向上取整。
  * ###################################################################### */

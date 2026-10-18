@@ -29,7 +29,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Sum of Round Numbers
  * 题目链接：https://codeforces.com/problemset/problem/1352/A
- * 标签：难度 800 | implementation, math
+ * 标签：难度 800 | implementation,math
  *
  * 关键思路：按十进制位拆出所有非零位，每个非零位构成一个 round number，输出个数与各数。
  * ###################################################################### */

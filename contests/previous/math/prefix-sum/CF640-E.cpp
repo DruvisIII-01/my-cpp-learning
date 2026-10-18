@@ -40,7 +40,7 @@ int main() {
 /* ######################################################################
  * 【题面与关键思路】Special Elements
  * 题目链接：https://codeforces.com/problemset/problem/1352/E
- * 标签：难度 1500 | brute force, implementation, two pointers
+ * 标签：难度 1500 | brute force,implementation,two pointers
  *
  * 关键思路：前缀和预处理，O(n^2) 枚举所有子段和并标记哪些元素值可被表示；注意值域小（<= n）可用计数数组直接映射。
  *

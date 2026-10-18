@@ -131,7 +131,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Cirno and Number (Hard Version)
  * 题目链接：https://codeforces.com/problemset/problem/2228/C2
- * 标签：难度 1600 | binary search, dfs, dp, greedy, implementation
+ * 标签：难度 1600 | binary search,dfs and similar,dp,greedy,implementation
  *
  * 关键思路：与 easy 同为“最接近的合法数”，改为逐位 DFS 带“贴上界/已偏大/已偏小”三状态剪枝，配合合法性判定（数位内不含被禁数字等）。
  * ###################################################################### */

@@ -49,7 +49,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】A/B Matrix
  * 题目链接：https://codeforces.com/problemset/problem/1360/G
- * 标签：难度 1900 | constructive algorithms, greedy, math
+ * 标签：难度 1900 | constructive algorithms,greedy,math
  *
  * 关键思路：先判 n*a == m*b，然后按第 i 行从列 (i*a+t) mod m 开始连续放 a 个 1，保证每列恰 b 个。
  * ###################################################################### */

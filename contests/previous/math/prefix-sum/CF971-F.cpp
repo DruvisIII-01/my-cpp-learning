@@ -62,7 +62,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Firefly's Queries
  * 题目链接：https://codeforces.com/problemset/problem/2009/F
- * 标签：难度 1700 | bitmasks, data structures, flows, math
+ * 标签：难度 1700 | bitmasks,data structures,flows,math
  *
  * 关键思路：无限数组由 a 的循环左移块拼接。找规律：先算整块贡献与偏移，再对余下部分用前缀和 O(1) 回答每次询问。
  *

@@ -37,7 +37,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Stepan and Permutation
  * 题目链接：https://codeforces.com/problemset/problem/2244/C
- * 标签：难度 1100 | constructive algorithms, dfs and similar, dsu, greedy, math, number theory, sortings
+ * 标签：难度 1100 | constructive algorithms,dfs and similar,dsu,greedy,math,number theory,sortings
  *
  * 关键思路：交换不改变下标模 gcd(x,y) 的余数：只对同余类内部排序，比较与目标排列是否一致。
  * ###################################################################### */

@@ -76,7 +76,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Binary Bubble Sort Inversions
  * 题目链接：https://codeforces.com/problemset/problem/2259/F
- * 标签：难度 1800 | data structures, math, two pointers
+ * 标签：难度 1800 | data structures,math,two pointers
  *
  * 关键思路：从两端收缩双指针，增量维护逆序对总数：每次移动端点时按"已有一侧的 0/1 个数"增减贡献。
  * ###################################################################### */

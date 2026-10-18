@@ -32,7 +32,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Triple
  * 题目链接：https://codeforces.com/problemset/problem/1669/B
- * 标签：难度 800 | implementation, sortings
+ * 标签：难度 800 | implementation,sortings
  *
  * 关键思路：桶计数后顺序扫描，输出第一个出现次数 ≥ 3 的数（不存在输出 −1）。
  *

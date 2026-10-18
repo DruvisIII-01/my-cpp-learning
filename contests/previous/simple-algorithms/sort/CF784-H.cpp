@@ -46,7 +46,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Maximal AND
  * 题目链接：https://codeforces.com/problemset/problem/1669/H
- * 标签：难度 1300 | bitmasks, greedy, math
+ * 标签：难度 1300 | bitmasks,greedy,math
  *
  * 关键思路：从高位到低位贪心：统计该位为 0 的元素个数 c，若剩余操作数 k ≥ c 就置位并消耗 c，答案按位累加。
  *

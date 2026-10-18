@@ -39,7 +39,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】2-Letter Strings
  * 题目链接：https://codeforces.com/problemset/problem/1669/E
- * 标签：难度 1200 | data structures, math, strings
+ * 标签：难度 1200 | data structures,math,strings
  *
  * 关键思路：用 26×26 桶统计每对 (c1,c2) 的串数；答案 = Σ (同首字母的串数 − 1) + (同末字母的串数 − 1)。
  *

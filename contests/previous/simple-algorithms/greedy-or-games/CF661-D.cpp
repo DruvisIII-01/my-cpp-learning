@@ -51,7 +51,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Binary String To Subsequences
  * 题目链接：https://codeforces.com/problemset/problem/1399/D
- * 标签：难度 1500 | constructive algorithms, data structures, greedy, implementation
+ * 标签：难度 1500 | constructive algorithms,data structures,greedy,implementation
  *
  * 关键思路：把 0/1 分别划成尽量少的"交替子序列"：每个字符优先接到以相反字符结尾的现有子序列，否则新开一条；用两个栈/队列维护编号。
  * ###################################################################### */

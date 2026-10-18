@@ -44,7 +44,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Orray
  * 题目链接：https://codeforces.com/problemset/problem/1742/G
- * 标签：难度 1500 | bitmasks, brute force, constructive algorithms, greedy
+ * 标签：难度 1500 | bitmasks,brute force,greedy,math,sortings
  *
  * 关键思路：目标是让前缀 OR 序列的字典序最大：每次贪心地从未选的数中挑"与当前 OR 相或后值最大"的那个，直到 OR 不再变化，剩下的数任意接在后面。按位贪心 + 少量枚举的经典套路。
  * ###################################################################### */

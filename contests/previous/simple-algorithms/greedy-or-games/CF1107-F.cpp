@@ -60,7 +60,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】A Bit Odd
  * 题目链接：https://codeforces.com/problemset/problem/2241/F
- * 标签：难度 1700 | data structures, games, greedy, math
+ * 标签：难度 1700 | data structures,games,greedy,math
  *
  * 关键思路：Alice 与 Bob 在 01 串上博弈。先找第一个 1 的下标 fi 与最后一个 0 的下标 ls；若不存在其一，Bob 胜。否则只需看 [fi, ls] 内每段连续相同字符的长度是否全为偶数：出现奇数长度则 Alice 胜，否则 Bob 胜。
  * ###################################################################### */

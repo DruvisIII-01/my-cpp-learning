@@ -37,7 +37,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】A Simple GCD Problem (Easy Version)
  * 题目链接：https://codeforces.com/problemset/problem/2210/C1
- * 标签：难度 1200 | greedy, number theory
+ * 标签：难度 1200 | greedy,number theory
  *
  * 关键思路：要求 a[i] | b[i] 且相邻 gcd 保持不变。结论：a[i] 能取的最小值是 gcd(a[i-1], b[i]) 与 gcd(a[i+1], b[i]) 的 lcm；逐一检查是否整除 b[i]。
  * ###################################################################### */

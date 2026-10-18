@@ -39,7 +39,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Smaller
  * 题目链接：https://codeforces.com/problemset/problem/1742/F
- * 标签：难度 1500 | greedy, implementation, strings
+ * 标签：难度 1500 | constructive algorithms,greedy,strings
  *
  * 关键思路：维护四个量：s、t 中字母 a 的个数与"非 a 字符"是否存在。若 t 中出现非 a 字符则一定 YES（可以把它放最前）；若 s 出现非 a 字符而 t 没有则 NO；否则比较 a 的个数。
  * ###################################################################### */

@@ -38,7 +38,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Evanescent
  * 题目链接：https://codeforces.com/problemset/problem/2254/B
- * 标签：难度 900 | implementation, strings, two pointers
+ * 标签：难度 900 | implementation,strings,two pointers
  *
  * 关键思路：统计相邻不同字符的对数得到 diff，再看能否通过删除一个"孤立的中间字符"额外减少 1 或 2 次变化，答案 = diff - dec。
  * ###################################################################### */

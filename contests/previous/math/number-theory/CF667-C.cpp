@@ -44,7 +44,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Yet Another Array Restoration
  * 题目链接：https://codeforces.com/problemset/problem/1409/C
- * 标签：难度 1200 | brute force, math, number theory
+ * 标签：难度 1200 | brute force,math,number theory
  *
  * 关键思路：公差 d 必须整除 y-x，枚举 y-x 的约数 d，检查能否在不超过 n 项内同时容纳 x、y 并尽量小，再向前补足 n 项。
  * ###################################################################### */

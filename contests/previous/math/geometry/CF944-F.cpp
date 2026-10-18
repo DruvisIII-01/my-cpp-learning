@@ -37,7 +37,7 @@ signed main(){
 /* ######################################################################
  * 【题面与关键思路】Circle Perimeter
  * 题目链接：https://codeforces.com/problemset/problem/1971/F
- * 标签：难度 1600 | binary search, brute force, dfs and similar, geometry, implementation, math
+ * 标签：难度 1600 | binary search,brute force,dfs and similar,geometry,implementation,math
  *
  * 关键思路：统计到原点距离落在 [r, r+1) 的整点数。二分+整数开方对每个 x 求出 y 的上界，避免浮点误差。
  * ###################################################################### */

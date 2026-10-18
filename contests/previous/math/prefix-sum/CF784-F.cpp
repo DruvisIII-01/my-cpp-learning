@@ -51,7 +51,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Eating Candies
  * 题目链接：https://codeforces.com/problemset/problem/1669/F
- * 标签：难度 1100 | binary search, data structures, greedy, two pointers
+ * 标签：难度 1100 | binary search,data structures,greedy,two pointers
  *
  * 关键思路：求"左侧前缀和 == 右侧后缀和"的最大总颗数：左右双指针，哪边和小就往哪边扩。
  *

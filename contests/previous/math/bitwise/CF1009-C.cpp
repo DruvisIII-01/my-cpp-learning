@@ -38,7 +38,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】XOR and Triangle
  * 题目链接：https://codeforces.com/problemset/problem/2074/C
- * 标签：难度 1100 | bitmasks, brute force, geometry, greedy, probabilities
+ * 标签：难度 1100 | bitmasks,brute force,geometry,greedy,probabilities
  *
  * 关键思路：判定 x 能否作为三角形第三边：x 既不能是 2 的幂（否则退化），也不能是 2^k - 1（否则两边相等），满足则 YES。
  * ###################################################################### */

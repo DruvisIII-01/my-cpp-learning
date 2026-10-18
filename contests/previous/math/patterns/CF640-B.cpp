@@ -47,7 +47,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Same Parity Summands
  * 题目链接：https://codeforces.com/problemset/problem/1352/B
- * 标签：难度 1200 | constructive algorithms, math
+ * 标签：难度 1200 | constructive algorithms,math
  *
  * 关键思路：n 拆成 k 个同奇偶正数：先试 k 个 1（需 n>=k 且 n-k 偶），再试 k 个 2（需 n>=2k 且 n-2k 偶），否则 NO。
  * ###################################################################### */

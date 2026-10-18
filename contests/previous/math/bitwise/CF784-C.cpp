@@ -39,7 +39,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Odd/Even Increments
  * 题目链接：https://codeforces.com/problemset/problem/1669/C
- * 标签：难度 800 | greedy, implementation, math
+ * 标签：难度 800 | greedy,implementation,math
  *
  * 关键思路：每次操作给同奇偶位置全体加 1；只需判断奇数位之间是否同奇偶、偶数位之间是否同奇偶。
  *

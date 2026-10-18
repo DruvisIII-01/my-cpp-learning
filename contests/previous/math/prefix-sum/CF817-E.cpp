@@ -51,7 +51,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Counting Rectangles
  * 题目链接：https://codeforces.com/problemset/problem/1722/E
- * 标签：难度 1600 | brute force, data structures, dp, implementation
+ * 标签：难度 1600 | brute force,data structures,dp,implementation
  *
  * 关键思路：按题意把每个 h×w 矩形"贡献"到二维差分数组（四角加/减 h*w），再对差分做二维前缀和得到"面积前缀"；每次询问用二维前缀和的容斥 O(1) 求答案。核心技巧：二维差分 + 二维前缀和互为逆运算。
  *

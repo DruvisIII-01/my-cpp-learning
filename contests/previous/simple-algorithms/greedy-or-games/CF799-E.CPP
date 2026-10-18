@@ -46,7 +46,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Binary Deque 二进制双端队列
  * 题目链接：https://codeforces.com/problemset/problem/1692/E
- * 标签：难度 1200 | binary search, implementation, two pointers
+ * 标签：难度 1200 | binary search,implementation,two pointers
  *
  * 关键思路：即"最长连续子段和为 target"，滑动窗口/双指针；答案 = n - 最长长度。
  * ###################################################################### */

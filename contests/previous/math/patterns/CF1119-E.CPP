@@ -107,7 +107,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Treasure Map Destruction (Constructive Version)
  * 题目链接：https://codeforces.com/problemset/problem/2259/E
- * 标签：难度 1500 | 2-sat, constructive algorithms, greedy
+ * 标签：难度 1500 | 2-sat,constructive algorithms,greedy
  *
  * 关键思路：每个宝藏覆盖一个区间：用差分求出"必须为 0"的位置集合，再贪心地把 1 放在能覆盖最多未满足宝藏的位置。
  * ###################################################################### */

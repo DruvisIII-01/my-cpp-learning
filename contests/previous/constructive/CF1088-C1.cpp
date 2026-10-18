@@ -61,7 +61,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Equal Multisets (Easy Version)
  * 题目链接：https://codeforces.com/problemset/problem/2211/C1
- * 标签：难度 1300 | binary search, brute force, greedy, two pointers
+ * 标签：难度 1300 | binary search,brute force,greedy,two pointers
  *
  * 关键思路：把 a、b 排序后双指针配对，判断能否通过整体加减同一常数变成同一个多重集；只需输出 YES/NO。
  * ###################################################################### */

@@ -57,7 +57,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Prime Destruction
  * 题目链接：https://codeforces.com/problemset/problem/2266/E
- * 标签：难度 1400 | brute force, dp, math, number theory
+ * 标签：难度 1400 | brute force,dp,math,number theory
  *
  * 关键思路：最小质因子（SPF）线性筛预处理，dp[x] = 把 x 消到 <= k 的最少步数 = min over p|x (1 + p*dp[x/p])；答案为 sum dp[a[i]]。
  * ###################################################################### */

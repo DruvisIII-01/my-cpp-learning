@@ -43,7 +43,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Spy-string
  * 题目链接：https://codeforces.com/problemset/problem/1360/F
- * 标签：难度 1700 | bitmasks, brute force, constructive algorithms, dp, hashing, strings
+ * 标签：难度 1700 | bitmasks,brute force,constructive algorithms,dp,hashing,strings
  *
  * 关键思路：对每个位置、每个字符尝试替换（26*m 种），检查替换后的串与其它所有串的汉明距离是否 <= 1；可行即输出，否则 -1。
  * ###################################################################### */

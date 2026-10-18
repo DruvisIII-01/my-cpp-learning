@@ -36,7 +36,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Double Strings
  * 题目链接：https://codeforces.com/problemset/problem/1703/D
- * 标签：难度 1100 | brute force, data structures, strings
+ * 标签：难度 1100 | brute force,data structures,strings
  *
  * 关键思路：用 map 存所有串，枚举每个串的拆分点，判断两半是否都在集合中；字符串哈希/哈希表查询。
  * ###################################################################### */

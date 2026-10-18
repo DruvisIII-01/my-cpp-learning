@@ -21,7 +21,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Short Sort
  * 题目链接：https://codeforces.com/problemset/problem/1873/A
- * 标签：难度 800 | brute force, implementation
+ * 标签：难度 800 | brute force,implementation
  *
  * 关键思路：判断首位是否为 a、次位是否为 b、末位是否为 c，任一满足即 YES。
  * ###################################################################### */

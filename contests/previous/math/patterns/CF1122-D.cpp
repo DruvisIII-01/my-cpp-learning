@@ -51,7 +51,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Falling Concrete
  * 题目链接：https://codeforces.com/problemset/problem/2266/D
- * 标签：难度 1400 | constructive algorithms, data structures, math, sortings
+ * 标签：难度 1400 | constructive algorithms,data structures,math,sortings
  *
  * 关键思路：关键不变量：每个元素减去下标后，操作不改变该差值。把 (a[i]-i) 去重排序，最长连续整数段的长度即答案。
  * ###################################################################### */

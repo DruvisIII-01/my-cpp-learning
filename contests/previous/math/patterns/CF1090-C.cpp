@@ -23,7 +23,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】The 67th Permutation Problem
  * 题目链接：https://codeforces.com/problemset/problem/2218/C
- * 标签：难度 800 | constructive algorithms, greedy, math
+ * 标签：难度 800 | constructive algorithms,greedy,math
  *
  * 关键思路：按公式输出：第 i 组输出 i、3n-2i+1、3n-2i+2，使每三个连续数的和相等。
  * ###################################################################### */

@@ -32,7 +32,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Cypher
  * 题目链接：https://codeforces.com/problemset/problem/1703/C
- * 标签：难度 800 | brute force, implementation, strings
+ * 标签：难度 800 | brute force,implementation,strings
  *
  * 关键思路：按 U/D 指令把每位数字在 0..9 上循环移动，最后输出锁的状态。
  * ###################################################################### */

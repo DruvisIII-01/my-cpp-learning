@@ -47,7 +47,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Cyclists
  * 题目链接：https://codeforces.com/problemset/problem/2208/B
- * 标签：难度 1100 | brute force, games, greedy, implementation, math, sortings
+ * 标签：难度 1100 | brute force,games,greedy,implementation,math,sortings
  *
  * 关键思路：把数按奇偶分组，两人轮流取当前最大值（各取对应奇偶性），排序后模拟即得最优差。
  * ###################################################################### */

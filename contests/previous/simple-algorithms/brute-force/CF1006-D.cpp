@@ -52,7 +52,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】For Wizards, the Exam Is Easy, but I Couldn't Handle It
  * 题目链接：https://codeforces.com/problemset/problem/2072/D
- * 标签：难度 1300 | brute force, greedy, implementation
+ * 标签：难度 1300 | brute force,greedy,implementation
  *
  * 关键思路：只能把一个区间内所有数减 1，要使数组变成"每对相邻差 <= 1"。O(n^2) 枚举区间，用计数表 O(1) 计算改动后的最大/最小相邻差，取最小操作次数。
  * ###################################################################### */

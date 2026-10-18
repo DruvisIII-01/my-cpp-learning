@@ -28,7 +28,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】1D Eraser
  * 题目链接：https://codeforces.com/problemset/problem/1873/D
- * 标签：难度 800 | greedy, implementation, two pointers
+ * 标签：难度 800 | greedy,implementation,two pointers
  *
  * 关键思路：从左往右扫：遇到黑色格就把它和右边 k-1 格一起刷白，答案即刷的次数（贪心不亏）。
  * ###################################################################### */

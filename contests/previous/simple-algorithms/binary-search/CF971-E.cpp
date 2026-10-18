@@ -30,7 +30,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Klee's SUPER DUPER LARGE Array!!!
  * 题目链接：https://codeforces.com/problemset/problem/2009/E
- * 标签：难度 1400 | binary search, math, ternary search
+ * 标签：难度 1400 | binary search,math,ternary search
  *
  * 关键思路：数组是 k..k+n-1 的等差段，前后两段和的差关于分割点先减后增，二分/三分出零点，比较相邻两项取最小绝对差。
  * ###################################################################### */

@@ -40,7 +40,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Eating Queries
  * 题目链接：https://codeforces.com/problemset/problem/1676/E
- * 标签：难度 1100 | binary search, greedy, sortings
+ * 标签：难度 1100 | binary search,greedy,sortings
  *
  * 关键思路：降序排序求前缀和（单调），每个询问二分最小的 x 使前缀和 >= 询问值。
  *

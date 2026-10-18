@@ -136,7 +136,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Masha and the Garland（花环）
  * 题目链接：https://codeforces.com/problemset/problem/2244/E
- * 标签：难度 1400 | data-structures, dp, greedy, implementation, math, number theory, strings
+ * 标签：难度 1400 | data structures,dp,greedy,implementation,math,number theory,strings
  *
  * 题意：给 01 串 s，每次询问 [l, r] 与 k：能否用不超过 k 次"区间翻转"把 s[l..r] 变成相邻位严格交替的串。
  * 关键思路：目标串只有两种（1010… 与 0101…）。把 s 与两种目标串逐位比较，各自可得到若干"极大失配连续段"。

@@ -44,7 +44,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Yaroslav and Productivity
  * 题目链接：https://codeforces.com/problemset/problem/2244/D
- * 标签：难度 1200 | constructive algorithms, dp, greedy, math, number theory
+ * 标签：难度 1200 | constructive algorithms,dp,greedy,math,number theory
  *
  * 关键思路：读一个帖子会翻转其所有前缀（即把 b 的某前缀"翻转"），求能否让每个位置都被覆盖奇数次；按 b 排序后做奇偶两态的线性 DP。
  *

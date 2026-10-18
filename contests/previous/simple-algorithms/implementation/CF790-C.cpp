@@ -34,7 +34,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Most Similar Words
  * 题目链接：https://codeforces.com/problemset/problem/1676/C
- * 标签：难度 800 | brute force, greedy, implementation, math, strings
+ * 标签：难度 800 | brute force,greedy,implementation,math,strings
  *
  * 关键思路：n 很小，双重循环枚举所有字符串对，逐位计算字母距离之和取最小。
  * ###################################################################### */

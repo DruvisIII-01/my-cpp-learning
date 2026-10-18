@@ -30,7 +30,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Marisa Steals Reimu's Takeout
  * 题目链接：https://codeforces.com/problemset/problem/2228/A
- * 标签：难度 800 | greedy, implementation
+ * 标签：难度 800 | greedy,implementation
  *
  * 关键思路：统计 0、1、2 的个数：每个 0 单独成组，min(cnt1,cnt2) 对 (1,2) 配对，剩余的同类每 3 个凑一组。
  * ###################################################################### */

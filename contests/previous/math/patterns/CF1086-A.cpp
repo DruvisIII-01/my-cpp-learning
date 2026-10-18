@@ -37,7 +37,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Bingo Candies
  * 题目链接：https://codeforces.com/problemset/problem/2208/A
- * 标签：难度 800 | constructive algorithms, math
+ * 标签：难度 800 | constructive algorithms,math
  *
  * 关键思路：统计每种颜色出现次数 c，若存在 c > n(n-1) 则不满足抽屉原理，输出 NO；否则 YES。
  * ###################################################################### */

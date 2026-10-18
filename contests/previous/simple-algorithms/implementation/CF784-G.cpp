@@ -65,7 +65,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Fall Down
  * 题目链接：https://codeforces.com/problemset/problem/1669/G
- * 标签：难度 1200 | dfs and similar, implementation
+ * 标签：难度 1200 | dfs and similar,implementation
  *
  * 关键思路：逐列重力下落：统计该列石子（*）的个数后整体压到底部，其余位置填 . 。
  *

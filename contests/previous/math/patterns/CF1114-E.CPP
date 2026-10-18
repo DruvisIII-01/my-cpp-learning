@@ -89,7 +89,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Chronostasis
  * 题目链接：https://codeforces.com/problemset/problem/2254/E
- * 标签：难度 1500 | binary search, data structures, greedy
+ * 标签：难度 1500 | binary search,data structures,greedy
  *
  * 关键思路：给定每个位置的前缀和与元素个数的约束，构造一个满足计数条件的数组：正数升序、负数用 multiset 按需选取，配合前缀和校验。
  * ###################################################################### */

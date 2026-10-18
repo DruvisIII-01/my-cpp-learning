@@ -28,7 +28,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】A BIT of a Construction
  * 题目链接：https://codeforces.com/problemset/problem/1957/B
- * 标签：难度 1100 | bitmasks, constructive algorithms, greedy, implementation
+ * 标签：难度 1100 | bitmasks,constructive algorithms,greedy,implementation
  *
  * 关键思路：把字符串中出现过的字符去重排序得到 r，再建立 r[i] <-> r[len-1-i] 的镜像映射，替换每个字符输出。
  * ###################################################################### */

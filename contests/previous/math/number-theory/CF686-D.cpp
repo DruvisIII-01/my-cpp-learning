@@ -60,7 +60,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Number into Sequence
  * 题目链接：https://codeforces.com/problemset/problem/1454/D
- * 标签：难度 1300 | constructive algorithms, math, number theory
+ * 标签：难度 1300 | constructive algorithms,math,number theory
  *
  * 关键思路：把 n 分解质因数，取出现次数最多的质数 p（次数 c）作为核心：输出 c-1 个 p 和最后一个 n/p^(c-1)，保证整除链最长。
  * ###################################################################### */

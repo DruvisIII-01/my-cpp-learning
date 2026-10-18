@@ -39,7 +39,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Polygon
  * 题目链接：https://codeforces.com/problemset/problem/1360/E
- * 标签：难度 1300 | dp, graphs, implementation, shortest paths
+ * 标签：难度 1300 | dp,graphs,implementation,shortest paths
  *
  * 关键思路：检查 n×n 的 01 网格中每个 1 的右邻与下邻是否也为 1（即是否为合法"多边形"填充），纯细节判定。
  * ###################################################################### */

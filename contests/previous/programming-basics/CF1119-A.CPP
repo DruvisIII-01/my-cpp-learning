@@ -30,7 +30,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Moo Language School
  * 题目链接：https://codeforces.com/problemset/problem/2259/A
- * 标签：难度 800 | brute force, greedy, two pointers
+ * 标签：难度 800 | brute force,greedy,two pointers
  *
  * 关键思路：把字符串按长度 k 分块，统计每块内 1 的个数（或是否含 0），累加答案。
  * ###################################################################### */

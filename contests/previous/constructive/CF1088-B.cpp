@@ -37,7 +37,7 @@ signed main() {
 /* ######################################################################
  * 【题面与关键思路】Mickey Mouse Constructive
  * 题目链接：https://codeforces.com/problemset/problem/2211/B
- * 标签：难度 1100 | constructive algorithms, dp, greedy, math
+ * 标签：难度 1100 | constructive algorithms,dp,greedy,math
  *
  * 关键思路：构造 x 的约数 d 使 x/d = y：需要 d | x 且 (x/d) = y，即枚举 x 的约数判定；数论构造 + 试除。
  * ###################################################################### */
