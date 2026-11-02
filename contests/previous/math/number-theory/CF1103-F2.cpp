@@ -118,3 +118,11 @@ signed main() {
     }
     return 0;
 }
+
+/* ##################################################################
+ * 【题面与关键思路】Elections in Saransk (hard version)
+ * 题目链接：https://codeforces.com/problemset/problem/2236/F2
+ * 标签：难度 2200 | combinatorics, dp, math, number theory
+ *
+ * 关键思路：在 F1 的质因数分解基础上加 DP：按每个质数的指数分布组合计数，取模 1e9+7。
+ * ################################################################## */

@@ -101,3 +101,11 @@ signed main() {
     }
     return 0;
 }
+
+/* ##################################################################
+ * 【题面与关键思路】Idiot First Search and Queries
+ * 题目链接：https://codeforces.com/problemset/problem/2195/G
+ * 标签：难度 2300 | binary search, data structures, dp, graphs, trees
+ *
+ * 关键思路：先 dfs 预处理子树深度和，再对每个询问用倍增（up[i][k]）向上跳 2^k 步并累加贡献，O((n+q) log n)。
+ * ################################################################## */

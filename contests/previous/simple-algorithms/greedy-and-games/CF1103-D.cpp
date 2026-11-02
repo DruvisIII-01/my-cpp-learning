@@ -45,3 +45,11 @@ signed main() {
     }
     return 0;
 }
+
+/* ##################################################################
+ * 【题面与关键思路】Brand New Tatar TV Show
+ * 题目链接：https://codeforces.com/problemset/problem/2236/D
+ * 标签：难度 1300 | binary search, constructive, dp, games, math
+ *
+ * 关键思路：统计每个值的出现次数，从最大值往下扫：若最大值的次数为偶数则 YES；否则找下一个出现过的值 t，若 mx−t ≤ k 则 YES，并把 mx 改成 t 继续。
+ * ################################################################## */

@@ -19,3 +19,11 @@ signed main() {
     }
     return 0;
 }
+
+/* ##################################################################
+ * 【题面与关键思路】Atilla's Favorite Problem
+ * 题目链接：https://codeforces.com/problemset/problem/1760/B
+ * 标签：难度 800 | greedy, implementation, strings
+ *
+ * 关键思路：答案是字符串中最大字符的字母序号。
+ * ################################################################## */

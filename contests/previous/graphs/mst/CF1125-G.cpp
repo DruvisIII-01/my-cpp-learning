@@ -92,3 +92,11 @@ signed main() {
     }
     return 0;
 }
+
+/* ##################################################################
+ * 【题面与关键思路】Copper Squander
+ * 题目链接：https://codeforces.com/problemset/problem/2275/G
+ * 标签：难度 1900 | binary search, data structures, dsu, graphs, greedy, math, sortings
+ *
+ * 关键思路：边按权值排序，用并查集做 Kruskal 式合并，并对每次询问离线二分"最小需要多大的边权才能连通"。
+ * ################################################################## */

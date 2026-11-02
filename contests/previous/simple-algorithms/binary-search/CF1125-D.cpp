@@ -44,3 +44,11 @@ signed main() {
     }
     return 0;
 }
+
+/* ##################################################################
+ * 【题面与关键思路】Precision Alignment
+ * 题目链接：https://codeforces.com/problemset/problem/2275/D
+ * 标签：难度 1300 | binary search, brute force, greedy, implementation
+ *
+ * 关键思路：二分目标值 reach，check 里逐项算把三项之和提到 reach 的最小代价（三项相等时不可行；严格递增时还要额外 +2）。
+ * ################################################################## */

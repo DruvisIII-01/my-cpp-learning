@@ -79,3 +79,11 @@ signed main() {
     }
     return 0;
 }
+
+/* ##################################################################
+ * 【题面与关键思路】Mooclear Reactor 2
+ * 题目链接：https://codeforces.com/problemset/problem/2200/F
+ * 标签：难度 1900 | brute force, data structures, greedy, implementation, sortings
+ *
+ * 关键思路：把点按 y 排序后从高到低扫，用优先队列维护当前层的 x；对每个后缀计算 min/sum，枚举"被删掉的点数"取最优差值。
+ * ################################################################## */
