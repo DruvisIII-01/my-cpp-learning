@@ -53,3 +53,11 @@ signed main(){
 
     return 0;
 }
+
+/* ##################################################################
+ * 【题面与关键思路】Letters Down
+ * 题目链接：https://codeforces.com/problemset/problem/2290/D
+ * 标签：难度 2290D（新场次，暂无 rating） | data structures, dsu, greedy, implementation, strings
+ *
+ * 关键思路：反复找"回文位置对不上的最大字符 mx"，把所有 mx 统一降一级，直到整串回文；答案即总的降低次数（每轮把 mx 减 1）。
+ * ################################################################## */

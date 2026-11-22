@@ -59,3 +59,11 @@ signed main() {
     }
     return 0;
 }
+
+/* ##################################################################
+ * 【题面与关键思路】Lakeside Trail (Hard Version)
+ * 题目链接：https://codeforces.com/problemset/problem/2290/G2
+ * 标签：难度 2290G2（新场次，暂无 rating） | binary search, dp, greedy, math
+ *
+ * 关键思路：与 easy 版同一个 check，但数据范围更大：用两遍方向扫描（前缀 P 型 + 后缀 N 型）代替暴力枚举环形断点，配合二分答案做到 O(n log V)。
+ * ################################################################## */

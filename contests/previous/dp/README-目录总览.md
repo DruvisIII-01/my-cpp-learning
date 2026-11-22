@@ -5,10 +5,10 @@
 | 子目录 | 题数 |
 | --- | --- |
 | `dp/intro` | 1 |
-| `dp/linear` | 17 |
+| `dp/linear` | 19 |
 | `dp/package` | 1 |
-| `dp/tree` | 3 |
+| `dp/tree` | 5 |
 | `dp/digit` | 3 |
 | `dp/state-compression` | 1 |
 
-合计 **26** 题。
+合计 **30** 题。

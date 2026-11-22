@@ -11,6 +11,6 @@
 | `graphs/toposort` | 6 |
 | `graphs/tarjan` | 2 |
 | `graphs/2sat` | 1 |
-| `graphs/binary-lifting` | 1 |
+| `graphs/binary-lifting` | 2 |
 
-合计 **20** 题。
+合计 **21** 题。

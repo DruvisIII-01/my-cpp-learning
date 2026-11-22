@@ -1,4 +1,4 @@
-# 数学（math）
+# 数学（math）总览
 
 数学题先手玩打表，再猜结论，最后证明。
 
@@ -9,6 +9,7 @@
 | `math/combinatorics-and-patterns` | 27 |
 | `math/bitwise` | 4 |
 | `math/geometry` | 4 |
-| `math/fast-power` | 1 |
 
-合计 **73** 题。
+合计 **72** 题。
+
+> 注：原 math 下的 fast-power 子目录已空并被清理，相关题并入 number-theory 与 simple-algorithms。

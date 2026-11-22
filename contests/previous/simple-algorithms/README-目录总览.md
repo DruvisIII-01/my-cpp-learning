@@ -4,13 +4,13 @@
 
 | 子目录 | 题数 |
 | --- | --- |
-| `simple-algorithms/implementation` | 18 |
+| `simple-algorithms/implementation` | 19 |
 | `simple-algorithms/brute-force` | 12 |
 | `simple-algorithms/sort` | 10 |
 | `simple-algorithms/hash-and-randomized` | 7 |
-| `simple-algorithms/greedy-and-games` | 24 |
-| `simple-algorithms/binary-search` | 5 |
+| `simple-algorithms/greedy-and-games` | 29 |
+| `simple-algorithms/binary-search` | 7 |
 | `simple-algorithms/two-pointers` | 3 |
-| `simple-algorithms/divide-and-conquer` | 1 |
+| `simple-algorithms/divide-and-conquer` | 2 |
 
-合计 **80** 题。
+合计 **89** 题。
